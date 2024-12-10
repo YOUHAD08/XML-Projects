@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Company SYSTEM "file:/C:/Users/hp/Documents/ENSET/Technologie%20XML%20et%20Web%20Service/Telecommunication/Telecommunication.dtd">
+<Company>
+    <Client Client_ID="C1" Name="Ayoub">
+        <Subscribtion Subscribtion_ID="S1" Subscribtion_Date="2021-12-12" Type="FIXE">
+            <Invoice Invoice_ID="S1I1" Subscribtion_Date="2023-12-12" Price="678" Done="NO"/>
+            <Invoice Invoice_ID="S1I2" Subscribtion_Date="2023-03-24" Price="633" Done="YES"/>
+            <Invoice Invoice_ID="S1I3" Subscribtion_Date="2023-8-26" Price="783" Done="YES"/>
+        </Subscribtion>
+        <Subscribtion Subscribtion_ID="S2" Subscribtion_Date="2024-12-12" Type="FO">
+            <Invoice Invoice_ID="S2I2" Subscribtion_Date="2023-04-28" Price="345" Done="YES"/>
+            <Invoice Invoice_ID="S2I3" Subscribtion_Date="2023-01-16" Price="678" Done="YES"/>
+        </Subscribtion>
+        <Adresse> 11 RUE SADAKA KECH</Adresse>
+    </Client>
+    <Client Client_ID="C2" Name="Fatiha">
+        <Subscribtion Subscribtion_ID="C2S1" Subscribtion_Date="2024-03-24" Type="GSM">
+            <Invoice Invoice_ID="C2S1I1" Subscribtion_Date="2024-09-12" Price="743" Done="NO"/>
+            <Invoice Invoice_ID="C2S1I3" Subscribtion_Date="2025-à8-16" Price="730" Done="YES"/>
+        </Subscribtion>
+        <Subscribtion Subscribtion_ID="C2S2" Subscribtion_Date="2025-04-18" Type="FO">
+            <Invoice Invoice_ID="C2S2I2" Subscribtion_Date="2023-04-28" Price="350" Done="YES"/>
+            <Invoice Invoice_ID="C2S2I3" Subscribtion_Date="2023-01-16" Price="618" Done="YES"/>
+        </Subscribtion>
+    </Client>
+</Company>

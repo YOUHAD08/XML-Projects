@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Company (Client+) >
+<!ELEMENT Client (Subscribtion+, Adresse?) >
+<!ELEMENT Subscribtion (Invoice+) >
+<!ELEMENT Invoice EMPTY >
+<!ELEMENT Adresse (#PCDATA) >
+
+<!ATTLIST Client 
+               Client_ID ID #REQUIRED
+               Name CDATA #REQUIRED
+               >
+
+<!ATTLIST Subscribtion 
+               Subscribtion_ID ID #REQUIRED
+               Type (FIXE|GSM|FO) "FIXE"
+               Subscribtion_Date CDATA #REQUIRED
+               >
+               
+<!ATTLIST Invoice 
+               Invoice_ID NMTOKEN #REQUIRED
+               Subscribtion_Date CDATA #REQUIRED
+               Price CDATA #REQUIRED
+               Done (YES|NO) "NO"
+               >

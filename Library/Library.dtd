@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Library (Student+) >
+<!ELEMENT Student (Book+) >
+<!ELEMENT Book EMPTY >
+
+<!ATTLIST Student
+                  Code CDATA #REQUIRED
+                  First_Name CDATA #REQUIRED
+                  Last_Name CDATA #REQUIRED
+                  Age CDATA #REQUIRED
+                  >
+
+<!ATTLIST Book
+                  ID NMTOKEN #REQUIRED
+                  Title CDATA #REQUIRED
+                  Borrow_Date CDATA #REQUIRED
+                  Returned (YES|NO) "NO"
+                  >

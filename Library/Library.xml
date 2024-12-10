@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Library SYSTEM "Library.dtd">
+<Library>
+    <Student Code="S1" First_Name="Ayoub" Last_Name="Youhad" Age="25">
+        <Book ID="B1" Title="BIG DATA" Borrow_Date="2022-09-14" Returned="NO"/>
+        <Book ID="B2" Title="CLOUD COMPUTING" Borrow_Date="2023-05-15" Returned="YES"/>
+        <Book ID="B3" Title="DEVOPS" Borrow_Date="2024-12-21" Returned="NO"/>
+        <Book ID="B4" Title="MACHINE LEARNING" Borrow_Date="2025-03-28" Returned="YES"/>
+    </Student>
+    <Student Code="S2" First_Name="SALMA" Last_Name="RACHIDI" Age="15">
+        <Book ID="B1" Title="BIG DATA" Borrow_Date="2022-09-14" Returned="YES"/>
+        <Book ID="B2" Title="CLOUD COMPUTING" Borrow_Date="2023-05-15" Returned="YES"/>
+        <Book ID="B3" Title="DEVOPS" Borrow_Date="2024-12-21" Returned="NO"/>
+        <Book ID="B4" Title="MACHINE LEARNING" Borrow_Date="2025-03-28" Returned="YES"/>
+    </Student>
+    <Student Code="S3" First_Name="SOUFIANE" Last_Name="IDALI" Age="34">
+        <Book ID="B1" Title="BIG DATA" Borrow_Date="2022-09-14" Returned="NO"/>
+        <Book ID="B2" Title="CLOUD COMPUTING" Borrow_Date="2023-05-15" Returned="NO"/>
+        <Book ID="B3" Title="DEVOPS" Borrow_Date="2024-12-21" Returned="NO"/>
+        <Book ID="B4" Title="MACHINE LEARNING" Borrow_Date="2025-03-28" Returned="YES"/>
+    </Student>
+</Library>
