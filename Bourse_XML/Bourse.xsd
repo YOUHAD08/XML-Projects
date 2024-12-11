@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+    <xsd:element name="Bource" type="BourceType"/>
+    <xsd:complexType name="BourceType">
+        <xsd:sequence>
+            <xsd:element name="Company" maxOccurs="unbounded" type="CompanyType"/>
+        </xsd:sequence>       
+    </xsd:complexType>
+    <xsd:complexType name="CompanyType">
+        <xsd:sequence>
+            <xsd:element name="Company_Code" type="xsd:string"/>
+            <xsd:element name="Company_Name" type="xsd:string"/>
+            <xsd:element name="Introduction_Date" type="xsd:date"/>
+            <xsd:element name="Quotations"  type="QuotationsType"/>
+        </xsd:sequence>
+        <xsd:attribute name="Type" type="xsd:string" use="required" />
+    </xsd:complexType>
+    <xsd:complexType name="QuotationsType">
+        <xsd:sequence>
+            <xsd:element name="Quotation" maxOccurs="unbounded" type="QuotationType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="QuotationType">
+        <xsd:attribute name="Number" type="xsd:string" use="required" />
+        <xsd:attribute name="Quotation_Date" type="xsd:date" use="required" />
+        <xsd:attribute name="Value_Action" type="xsd:integer" use="required" />
+    </xsd:complexType>
+</xsd:schema>

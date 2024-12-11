@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Bource (Company+)>
+<!ELEMENT Company (Company_Code, Company_Name, Introduction_Date, Quotations)>
+<!ELEMENT Quotations (Quotation+)>
+<!ELEMENT Quotation EMPTY>
+<!ELEMENT Company_Code (#PCDATA)>
+<!ELEMENT Company_Name (#PCDATA)>
+<!ELEMENT Introduction_Date (#PCDATA)>
+
+
+<!ATTLIST Company 
+               Type CDATA #REQUIRED
+               >
+
+<!ATTLIST Quotation 
+               Number ID #REQUIRED
+               Quotation_Date CDATA #REQUIRED
+               Value_Action CDATA #REQUIRED
+               >

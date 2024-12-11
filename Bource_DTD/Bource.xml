@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bource SYSTEM "Bource.dtd">
+<Bource>
+    <Company Type="Bank">
+        <Company_Code>BMCI</Company_Code>
+        <Company_Name>Banque Marocaine pour le Commerce et l'Industrie</Company_Name>
+        <Introduction_Date>2000-06-15</Introduction_Date>
+        <Quotations>
+            <Quotation Number="Q101" Quotation_Date="2024-12-01" Value_Action="650"/>
+            <Quotation Number="Q102" Quotation_Date="2024-12-05" Value_Action="680"/>
+            <Quotation Number="Q103" Quotation_Date="2024-12-10" Value_Action="740"/>
+        </Quotations>
+    </Company>
+    <Company Type="Insurance">
+        <Company_Code>Wafa</Company_Code>
+        <Company_Name>Wafa Assurance Maroc</Company_Name>
+        <Introduction_Date>1992-08-22</Introduction_Date>
+        <Quotations>
+            <Quotation Number="Q201" Quotation_Date="2024-12-02" Value_Action="450"/>
+            <Quotation Number="Q202" Quotation_Date="2024-12-06" Value_Action="500"/>
+            <Quotation Number="Q203" Quotation_Date="2024-12-09" Value_Action="530"/>
+        </Quotations>
+    </Company>
+    <Company Type="Telecommunications">
+        <Company_Code>Inwi</Company_Code>
+        <Company_Name>Inwi Maroc</Company_Name>
+        <Introduction_Date>2009-03-20</Introduction_Date>
+        <Quotations>
+            <Quotation Number="Q301" Quotation_Date="2024-12-03" Value_Action="300"/>
+            <Quotation Number="Q302" Quotation_Date="2024-12-07" Value_Action="320"/>
+            <Quotation Number="Q303" Quotation_Date="2024-12-10" Value_Action="350"/>
+        </Quotations>
+    </Company>
+    <Company Type="Retail">
+        <Company_Code>MJN</Company_Code>
+        <Company_Name>Marjane</Company_Name>
+        <Introduction_Date>1990-02-01</Introduction_Date>
+        <Quotations>
+            <Quotation Number="Q501" Quotation_Date="2024-12-01" Value_Action="150"/>
+            <Quotation Number="Q502" Quotation_Date="2024-12-05" Value_Action="180"/>
+        </Quotations>
+    </Company>
+    <Company Type="Telecommunications">
+        <Company_Code>IAM</Company_Code>
+        <Company_Name>Itissalat Al-Maghrib</Company_Name>
+        <Introduction_Date>1999-10-18</Introduction_Date>
+        <Quotations>
+            <Quotation Number="Q304" Quotation_Date="2024-12-02" Value_Action="280"/>
+            <Quotation Number="Q305" Quotation_Date="2024-12-06" Value_Action="310"/>
+            <Quotation Number="Q306" Quotation_Date="2024-12-09" Value_Action="340"/>
+        </Quotations>
+    </Company>
+    <Company Type="Insurance">
+        <Company_Code>AXA</Company_Code>
+        <Company_Name>AXA Assurance</Company_Name>
+        <Introduction_Date>1980-04-15</Introduction_Date>
+        <Quotations>
+            <Quotation Number="Q207" Quotation_Date="2024-12-01" Value_Action="490"/>
+            <Quotation Number="Q208" Quotation_Date="2024-12-05" Value_Action="520"/>
+            <Quotation Number="Q209" Quotation_Date="2024-12-10" Value_Action="550"/>
+        </Quotations>
+    </Company>
+    <Company Type="Bank">
+        <Company_Code>Attijariwafa</Company_Code>
+        <Company_Name>Attijariwafa Bank</Company_Name>
+        <Introduction_Date>1904-03-01</Introduction_Date>
+        <Quotations>
+            <Quotation Number="Q107" Quotation_Date="2024-12-01" Value_Action="720"/>
+            <Quotation Number="Q108" Quotation_Date="2024-12-05" Value_Action="750"/>
+            <Quotation Number="Q109" Quotation_Date="2024-12-10" Value_Action="800"/>
+        </Quotations>
+    </Company>
+    <Company Type="Bank">
+        <Company_Code>BMCE</Company_Code>
+        <Company_Name>Banque Marocaine du Commerce Extérieur</Company_Name>
+        <Introduction_Date>1959-12-01</Introduction_Date>
+        <Quotations>
+            <Quotation Number="Q104" Quotation_Date="2024-12-02" Value_Action="500"/>
+            <Quotation Number="Q105" Quotation_Date="2024-12-06" Value_Action="530"/>
+            <Quotation Number="Q106" Quotation_Date="2024-12-09" Value_Action="560"/>
+        </Quotations>
+    </Company>
+</Bource>
