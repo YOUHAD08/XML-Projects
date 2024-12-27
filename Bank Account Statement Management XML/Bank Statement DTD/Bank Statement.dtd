@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Bank (Bank_Statement+) >
+<!ELEMENT Bank_Statement (Statement_Date, Balance, Operations) >
+<!ELEMENT Statement_Date (#PCDATA) >
+<!ELEMENT  Balance (#PCDATA) >
+<!ELEMENT Operations (Operation+) >
+<!ELEMENT Operation EMPTY >
+
+
+<!ATTLIST Bank_Statement 
+               RIB CDATA #REQUIRED
+               >
+
+<!ATTLIST Operations 
+               Starting_Date CDATA #REQUIRED
+               Closing_Date CDATA #REQUIRED
+               >
+               
+<!ATTLIST Operation 
+               Type (CREDIT|DEBIT) "CREDIT" 
+               Date CDATA #REQUIRED
+               Amount CDATA #REQUIRED
+               Description CDATA #REQUIRED
+               >              

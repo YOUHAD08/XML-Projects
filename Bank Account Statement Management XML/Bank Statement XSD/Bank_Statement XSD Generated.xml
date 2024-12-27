@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bank xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Bank%20Statement.xsd">
+    <Bank_Statement RIB="123456789">
+        <Statement_Date>2024-12-01</Statement_Date>
+        <Balance>1000.50</Balance>
+        <Operations Starting_Date="2024-12-01" Closing_Date="2024-12-07">
+            <Operation Type="CREDIT" Date="2024-12-02" Amount="500.00" Description="Salary Deposit"/>
+            <Operation Type="DEBBIT" Date="2024-12-05" Amount="200.00" Description="ATM Withdrawal"/>
+        </Operations>
+    </Bank_Statement>
+    
+    <Bank_Statement RIB="987654321">
+        <Statement_Date>2024-12-02</Statement_Date>
+        <Balance>1500.00</Balance>
+        <Operations Starting_Date="2024-12-02" Closing_Date="2024-12-08">
+            <Operation Type="CREDIT" Date="2024-12-03" Amount="1000.00" Description="Transfer from XYZ"/>
+            <Operation Type="DEBBIT" Date="2024-12-06" Amount="50.00" Description="Coffee Shop Payment"/>
+        </Operations>
+    </Bank_Statement>
+    
+    <Bank_Statement RIB="112233445">
+        <Statement_Date>2024-12-03</Statement_Date>
+        <Balance>800.00</Balance>
+        <Operations Starting_Date="2024-12-03" Closing_Date="2024-12-09">
+            <Operation Type="CREDIT" Date="2024-12-04" Amount="200.00" Description="Refund"/>
+            <Operation Type="DEBBIT" Date="2024-12-07" Amount="150.00" Description="Supermarket Purchase"/>
+        </Operations>
+    </Bank_Statement>
+    
+    <Bank_Statement RIB="556677889">
+        <Statement_Date>2024-12-04</Statement_Date>
+        <Balance>2500.75</Balance>
+        <Operations Starting_Date="2024-12-04" Closing_Date="2024-12-10">
+            <Operation Type="CREDIT" Date="2024-12-05" Amount="1500.00" Description="Investment Return"/>
+            <Operation Type="DEBBIT" Date="2024-12-08" Amount="300.00" Description="Restaurant Bill"/>
+        </Operations>
+    </Bank_Statement>
+</Bank>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bank SYSTEM "Bank%20Statement.dtd">
+<Bank>
+    <Bank_Statement RIB="1234567890">
+        <Statement_Date>2024-12-01</Statement_Date>
+        <Balance>1000.00</Balance>
+        <Operations Starting_Date="2024-12-01" Closing_Date="2024-12-15">
+            <Operation Type="CREDIT" Date="2024-12-02" Amount="500.00" Description="Deposit from salary" />
+            <Operation Type="DEBIT" Date="2024-12-05" Amount="200.00" Description="Payment for groceries" />
+        </Operations>
+    </Bank_Statement>
+    <Bank_Statement RIB="9876543210">
+        <Statement_Date>2024-12-02</Statement_Date>
+        <Balance>1500.00</Balance>
+        <Operations Starting_Date="2024-12-01" Closing_Date="2024-12-10">
+            <Operation Type="DEBIT" Date="2024-12-03" Amount="100.00" Description="Restaurant bill" />
+            <Operation Type="CREDIT" Date="2024-12-07" Amount="300.00" Description="Freelance payment" />
+        </Operations>
+    </Bank_Statement>
+    <Bank_Statement RIB="1122334455">
+        <Statement_Date>2024-12-05</Statement_Date>
+        <Balance>1200.00</Balance>
+        <Operations Starting_Date="2024-12-01" Closing_Date="2024-12-10">
+            <Operation Type="CREDIT" Date="2024-12-06" Amount="400.00" Description="Bonus payment" />
+            <Operation Type="DEBIT" Date="2024-12-08" Amount="150.00" Description="Electricity bill" />
+        </Operations>
+    </Bank_Statement>
+    <Bank_Statement RIB="6677889900">
+        <Statement_Date>2024-12-10</Statement_Date>
+        <Balance>1800.00</Balance>
+        <Operations Starting_Date="2024-12-01" Closing_Date="2024-12-15">
+            <Operation Type="DEBIT" Date="2024-12-12" Amount="500.00" Description="Car repair" />
+            <Operation Type="CREDIT" Date="2024-12-14" Amount="600.00" Description="Payment from client" />
+        </Operations>
+    </Bank_Statement>
+</Bank>
